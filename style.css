@@ -1,0 +1,22 @@
+/*
+hex codes
+background: #111827
+input text background: #374151
+input text color: #6B7280
+button background: #0EA5E9
+task background: #E5E7EB
+task text color: #000000
+h1-h3 text color: #E5E7EB
+*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #111827;
+}
+
+img {
+    width: 300px;
+}
