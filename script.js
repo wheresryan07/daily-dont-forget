@@ -22,7 +22,7 @@ const taskListEl = document.querySelector("#task-list");
 addButtonEl.addEventListener("click", function () {
   let inputValue = inputFieldEl.value;
   if (inputValue === "") {
-    taskListEl.innerHTML = "Please enter an task.";
+    taskListEl.innerHTML = "Please enter a task.";
   } else {
     push(taskListInDB, inputValue);
     clearInputFieldEl();
